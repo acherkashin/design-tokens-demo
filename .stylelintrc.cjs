@@ -1,23 +1,16 @@
+const variables = require('./variables');
+
 function autoFixFunc(node, validation, root, config) {
   const { value, prop } = node;
 
-  console.log(`prop: ${prop}, value: ${value}`)
-
-  if (prop === 'font-weight') {
-    switch (value) {
-      case '300':
-        return 'var(--font-weight-light)';
-      case '400':
-        return 'var(--font-weight-normal)';
-      case '500':
-        return 'var(--font-weight-medium)';
-      case '600':
-        return 'var(--font-weight-semi-bold)';
-      case '700':
-        return 'var(--font-weight-bold)';
-      default:
-        throw new Error(`Property ${prop} with value ${value} can't be autofixed!`)
-    }
+  const key = Object.keys(variables).find(name => {
+    // case insensitive value comparison
+    return variables[name].toLowerCase() == value.toLowerCase();
+  });
+  const variable = `var(${key})`;
+  if (key) {
+    console.log(`Replaced: ${value} => ${variable}`);
+    return variable;
   }
 }
 
