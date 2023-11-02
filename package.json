@@ -23,6 +23,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
     "stylelint": "^15.11.0",
     "stylelint-declaration-strict-value": "^1.9.2",
     "typescript": "^5.0.2",

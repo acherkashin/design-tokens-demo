@@ -9,6 +9,7 @@ specifiers:
   eslint: ^8.45.0
   eslint-plugin-react-hooks: ^4.6.0
   eslint-plugin-react-refresh: ^0.4.3
+  postcss: ^8.4.31
   react: ^18.2.0
   react-dom: ^18.2.0
   stylelint: ^15.11.0
@@ -29,6 +30,7 @@ devDependencies:
   eslint: 8.52.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.52.0
   eslint-plugin-react-refresh: 0.4.4_eslint@8.52.0
+  postcss: 8.4.31
   stylelint: 15.11.0_typescript@5.2.2
   stylelint-declaration-strict-value: 1.9.2_stylelint@15.11.0
   typescript: 5.2.2
