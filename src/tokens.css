@@ -4,5 +4,18 @@
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700;
-  }
+
+    --dark-gray: #242424;
+    --light-blue: #646cff;
+    --dark-blue: #535bf2;
+    --black: #1a1a1a;
+    --navy: #213547;
+    --white: #ffffff;
+    --light-purple: #747bff;
+    --light-gray: #f9f9f9;
+    --gray: #888;
+    --white-opacity: rgba(255, 255, 255, 0.87);
+    --light-blue-opacity: #61dafbaa;
+    --light-blue-hover: #646cffaa;
+}
   
