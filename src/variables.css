@@ -1,10 +1,18 @@
 :root {
+    /**
+    * @tokens FontWeights
+    * @presenter FontWeight
+    */
     --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700;
 
+    /**
+    * @tokens Colors
+    * @presenter Color
+    */
     --dark-gray: #242424;
     --light-blue: #646cff;
     --dark-blue: #535bf2;
