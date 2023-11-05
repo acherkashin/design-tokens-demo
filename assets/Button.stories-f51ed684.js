@@ -1,0 +1,2 @@
+import{j as s}from"./jsx-runtime-9c4ae004.js";import"./index-1b03fe98.js";const n={title:"Example/Button"},t=()=>s.jsx("button",{children:"I'm button"});var r,o,e;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:"() => <button>I'm button</button>",...(e=(o=t.parameters)==null?void 0:o.docs)==null?void 0:e.source}}};const u=["Primary"];export{t as Primary,u as __namedExportsOrder,n as default};
+//# sourceMappingURL=Button.stories-f51ed684.js.map
