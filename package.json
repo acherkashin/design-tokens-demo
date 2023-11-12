@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint:css": "node scripts/styles.js && pnp stylelint --fix \"**/*.css\"",
+    "lint:css": "node scripts/styles.js && pnpx stylelint --fix \"**/*.css\"",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy": "gh-pages -d ./storybook-static"
