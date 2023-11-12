@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import postcss from 'postcss';
 
-const tokensPath = path.resolve('src/tokens.css');
+const tokensPath = path.resolve('src/variables.css');
 const cssContent = fs.readFileSync(tokensPath, 'utf-8');
 
 const variables = {};
