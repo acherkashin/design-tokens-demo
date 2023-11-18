@@ -21,7 +21,7 @@ module.exports = {
     'scale-unlimited/declaration-strict-value': [
       ['filter', 'color', 'background-color', 'font-size', 'font-weight', 'font-family', 'border-color'],
       {
-        ignoreValues: ['currentColor', 'unset', 'inherit', 'initial', 'transparent'],
+        ignoreValues: ['currentColor', 'unset', 'inherit', 'initial', 'transparent', "/^drop-shadow/"],
         autoFixFunc: autoFixFunc,
         ignoreFunctions: false,
       },
